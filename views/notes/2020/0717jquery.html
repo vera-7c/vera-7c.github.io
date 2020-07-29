@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>jQuery基础 | Vera&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="Life is study">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.b9401423.css" as="style"><link rel="preload" href="/assets/js/app.6c062d7f.js" as="script"><link rel="preload" href="/assets/js/3.f66678e2.js" as="script"><link rel="preload" href="/assets/js/1.d4079bb7.js" as="script"><link rel="preload" href="/assets/js/21.1cbfbca1.js" as="script"><link rel="prefetch" href="/assets/js/10.6ee63fac.js"><link rel="prefetch" href="/assets/js/11.682d4888.js"><link rel="prefetch" href="/assets/js/12.4709874c.js"><link rel="prefetch" href="/assets/js/13.094bb2da.js"><link rel="prefetch" href="/assets/js/14.7fb3640c.js"><link rel="prefetch" href="/assets/js/15.df99378f.js"><link rel="prefetch" href="/assets/js/16.6c73be80.js"><link rel="prefetch" href="/assets/js/17.3068c9ac.js"><link rel="prefetch" href="/assets/js/18.ca9a69c2.js"><link rel="prefetch" href="/assets/js/19.05fc2f22.js"><link rel="prefetch" href="/assets/js/20.a5585d56.js"><link rel="prefetch" href="/assets/js/22.2dff384d.js"><link rel="prefetch" href="/assets/js/23.af7483c0.js"><link rel="prefetch" href="/assets/js/4.9603fcec.js"><link rel="prefetch" href="/assets/js/5.65befa41.js"><link rel="prefetch" href="/assets/js/6.0d1f38f8.js"><link rel="prefetch" href="/assets/js/7.419eaa76.js"><link rel="prefetch" href="/assets/js/8.ad11aa10.js"><link rel="prefetch" href="/assets/js/9.d015bf57.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b9401423.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-19557b78><div data-v-19557b78><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-19557b78 data-v-19557b78><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-19557b78 data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>Vera's Blog</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>vera</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-19557b78><header class="navbar" data-v-19557b78><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="Vera's Blog" class="logo"> <span class="site-name">Vera's Blog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/article/" class="nav-link"><i class="iconfont undefined"></i>
+  article
+</a></li><li class="dropdown-item"><!----> <a href="/categories/notes/" class="nav-link"><i class="iconfont undefined"></i>
+  notes
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于我
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/vera-7c" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.cnblogs.com/vera-7c" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-bokeyuan"></i>
+  博客园
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-19557b78></div> <aside class="sidebar" data-v-19557b78><div class="personal-info-wrapper" data-v-b038cec6><img src="/avatar.png" alt="author-avatar" class="personal-img" data-v-b038cec6> <h3 class="name" data-v-b038cec6>
+    vera
+  </h3> <div class="num" data-v-b038cec6><div data-v-b038cec6><h3 data-v-b038cec6>12</h3> <h6 data-v-b038cec6>Article</h6></div> <div data-v-b038cec6><h3 data-v-b038cec6>3</h3> <h6 data-v-b038cec6>Tag</h6></div></div> <hr data-v-b038cec6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/article/" class="nav-link"><i class="iconfont undefined"></i>
+  article
+</a></li><li class="dropdown-item"><!----> <a href="/categories/notes/" class="nav-link"><i class="iconfont undefined"></i>
+  notes
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      关于我
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/vera-7c" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.cnblogs.com/vera-7c" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-bokeyuan"></i>
+  博客园
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>jQuery基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/notes/2020/0717jquery.html#什么是jquery？" class="sidebar-link">什么是jquery？</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#操作优势" class="sidebar-link">操作优势</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#版本" class="sidebar-link">版本</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#为什么能用-符号访问jquery" class="sidebar-link">为什么能用$符号访问jquery</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#入口函数的区别（加载模式的区别）" class="sidebar-link">入口函数的区别（加载模式的区别）</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#入口函数写法，在入口函数中写jq代码" class="sidebar-link">入口函数写法，在入口函数中写jq代码</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#接收参数：都返回返回jquery对象（伪数组）" class="sidebar-link">接收参数：都返回返回jquery对象（伪数组）</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#实例方法和静态方法" class="sidebar-link">实例方法和静态方法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#静态方法" class="sidebar-link">静态方法</a></li></ul></li><li><a href="/views/notes/2020/0717jquery.html#属性与属性节点" class="sidebar-link">属性与属性节点</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#jq操作属性节点" class="sidebar-link">jq操作属性节点</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#attr获取-设置属性节点" class="sidebar-link">attr获取/设置属性节点</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#prop获取-设置属性节点" class="sidebar-link">prop获取/设置属性节点</a></li></ul></li><li><a href="/views/notes/2020/0717jquery.html#jq操作类相关" class="sidebar-link">jq操作类相关</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#jq-文本操作相关" class="sidebar-link">jq 文本操作相关</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#css-操作相关" class="sidebar-link">css 操作相关</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#尺寸和位置操作相关" class="sidebar-link">尺寸和位置操作相关</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#jq事件绑定" class="sidebar-link">jq事件绑定</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#jq事件移除" class="sidebar-link">jq事件移除</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#事件冒泡和默认行为" class="sidebar-link">事件冒泡和默认行为</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#代码自动触发事件" class="sidebar-link">代码自动触发事件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#自定义事件" class="sidebar-link">自定义事件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#事件命名空间" class="sidebar-link">事件命名空间</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#事件委托" class="sidebar-link">事件委托</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#鼠标移入移除事件" class="sidebar-link">鼠标移入移除事件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#eq找出元素中指定序号元素" class="sidebar-link">eq找出元素中指定序号元素</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/notes/2020/0717jquery.html#筛选函数" class="sidebar-link">筛选函数</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#筛选出的非当前选择对象-来进行操作" class="sidebar-link">筛选出的非当前选择对象(来进行操作)</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#找到指定祖先" class="sidebar-link">找到指定祖先</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#获取指定子元素中的某些元素" class="sidebar-link">获取指定子元素中的某些元素</a></li></ul></li><li><a href="/views/notes/2020/0717jquery.html#jq动画效果" class="sidebar-link">jq动画效果</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#show-1000" class="sidebar-link">show(1000)</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#hide-1000" class="sidebar-link">hide(1000)</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#纵向展开-收起-切换" class="sidebar-link">纵向展开/收起/切换</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#停止当前正在运行的动画" class="sidebar-link">停止当前正在运行的动画</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#淡入淡出动画" class="sidebar-link">淡入淡出动画</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#stop" class="sidebar-link">stop()</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#多个动画执行队列" class="sidebar-link">多个动画执行队列</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#自定义动画" class="sidebar-link">自定义动画</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#动画延时delay" class="sidebar-link">动画延时delay()</a></li></ul></li><li><a href="/views/notes/2020/0717jquery.html#节点操作" class="sidebar-link">节点操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#添加节点" class="sidebar-link">添加节点</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#删除节点" class="sidebar-link">删除节点</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#替换元素" class="sidebar-link">替换元素</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#复制节点" class="sidebar-link">复制节点</a></li></ul></li><li><a href="/views/notes/2020/0717jquery.html#jquery原理-编写自己的jquery" class="sidebar-link">jQuery原理(编写自己的jquery)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#源码" class="sidebar-link">源码</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#jq入口函数传入参数返回" class="sidebar-link">jq入口函数传入参数返回</a></li><li class="sidebar-sub-header"><a href="/views/notes/2020/0717jquery.html#jquery中的方法实现" class="sidebar-link">jquery中的方法实现</a></li></ul></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-19557b78><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>jQuery基础</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>vera</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-19557b78><main class="page"><div class="page-title" style="display:none;"><h1>jQuery基础</h1> <hr> <div data-v-cd8d63d2><i class="iconfont reco-account" data-v-cd8d63d2><span data-v-cd8d63d2>vera</span></i> <i class="iconfont reco-date" data-v-cd8d63d2><span data-v-cd8d63d2>2020-07-17</span></i> <i class="iconfont reco-eye" data-v-cd8d63d2><span id="/views/notes/2020/0717jquery.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-cd8d63d2><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-cd8d63d2><span class="tag-item" data-v-cd8d63d2>
+      jQuery
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><p>学习jQuery的笔记，包括基础和原理。原理大有学问。
+</p> <h1 id="初识jquery"><a href="#初识jquery" class="header-anchor">#</a> 初识jQuery</h1> <h2 id="什么是jquery？"><a href="#什么是jquery？" class="header-anchor">#</a> 什么是jquery？</h2> <div class="language- extra-class"><pre><code>快速简洁的js库。write less, do more。
+</code></pre></div><h2 id="操作优势"><a href="#操作优势" class="header-anchor">#</a> 操作优势</h2> <div class="language- extra-class"><pre><code>方便HTML文档遍历，事件处理，动画，ajax交互。轻量级大小大约19KB，跨浏览器支持，支持CSS3选择器和XPath语法。
+</code></pre></div><h2 id="版本"><a href="#版本" class="header-anchor">#</a> 版本</h2> <div class="language- extra-class"><pre><code>1.x 支持浏览器版本多。文件大。大厂基本都用。
+类型：压缩版本，未压缩版本。开发使用未压缩（阅读学习），上线使用压缩。
+</code></pre></div><h2 id="为什么能用-符号访问jquery"><a href="#为什么能用-符号访问jquery" class="header-anchor">#</a> 为什么能用$符号访问jquery</h2> <h1 id="原生js和jq比较"><a href="#原生js和jq比较" class="header-anchor">#</a> 原生JS和jQ比较</h1> <h2 id="入口函数的区别（加载模式的区别）"><a href="#入口函数的区别（加载模式的区别）" class="header-anchor">#</a> 入口函数的区别（加载模式的区别）</h2> <div class="language- extra-class"><pre><code>window.onload = function(ev){}
+$(document).ready(function(){})
+1、jq不能拿到DOM元素的宽高，原生js等到DOM元素加载完毕，并且图片加载完毕才会执行
+jq等到DOM元素加载完毕，但是不会等到图片也加载完毕就会执行
+2、原生JS编写多个入口，后写覆盖原先；jq按顺序执行，后面不会覆盖前面放入口函数
+</code></pre></div><h1 id="写法"><a href="#写法" class="header-anchor">#</a> 写法</h1> <h2 id="入口函数写法，在入口函数中写jq代码"><a href="#入口函数写法，在入口函数中写jq代码" class="header-anchor">#</a> 入口函数写法，在入口函数中写jq代码</h2> <p>jQuery(document).ready(function(){})
+$(document).ready(function(){})
+$(function(){...各种操作})——推荐写法
+jQuery(function(){})</p> <h1 id="jq冲突问题"><a href="#jq冲突问题" class="header-anchor">#</a> jq冲突问题</h1> <p>框架冲突$符号(后引入的框架会覆盖前面的框架冲突部分)
+解决方案：释放$使用权
+jQuery.noConflict()//必须在其他jquery代码之前写出来，另外不再使用$而是用jQuery其他写法
+解决方案2：
+修改符号var jq = jQuery.noConflict()
+jq(function(){})</p> <h1 id="核心函数"><a href="#核心函数" class="header-anchor">#</a> $()核心函数</h1> <h2 id="接收参数：都返回返回jquery对象（伪数组）"><a href="#接收参数：都返回返回jquery对象（伪数组）" class="header-anchor">#</a> 接收参数：都返回返回jquery对象（伪数组）</h2> <ol><li>接收一个函数
+$(function(){})</li> <li>接收一个字符串</li> <li>接受一个字符串选择器，返回jquery对象，其中保存dom元素
+var $box1 = $(&quot;.box1&quot;)
+var $div = $(&quot;div&quot;)</li> <li>接收一个字符串代码片段</li> <li>接收一个DOM元素（会被包装成jquery对象</li></ol> <p>伪数组：有属性0-n-1，有length属性
+伪数组和数组的区别？</p> <h2 id="实例方法和静态方法"><a href="#实例方法和静态方法" class="header-anchor">#</a> 实例方法和静态方法</h2> <p>创建一个类。function AClass(){}
+添加静态方法。AClass.staticMethod = function(){}
+添加实例方法，通过原型添加。AClass.prototype.instanceMethod = function(){}
+静态方法通过类名调用。AClass.staticMethod()
+实例方法通过创建实例后调用。var a = new AClass()
+a.instanceMethod()</p> <h3 id="静态方法"><a href="#静态方法" class="header-anchor">#</a> 静态方法</h3> <h4 id="each"><a href="#each" class="header-anchor">#</a> each</h4> <p>原生遍历数组foreach不能遍历伪数组，获取元素和索引。
+原生js：
+arr.foreach(function(value,index){console.log(index,value)})</p> <p>jq:
+$.each(arr,function(index,value){
+console.log(index,value)
+//return value+index
+//返回的数组没有任何改变，和原数组一样
+})
+区别：参数顺序不同，能否遍历伪数组。</p> <p>jquery的each方法有几个？分别应用于什么场景？</p> <h4 id="map"><a href="#map" class="header-anchor">#</a> map</h4> <p>var arr =[1,2,3,4,5]
+var obj = {0:1,1:3,2:5,3:7,4:9,length:5}//伪数组
+原生js：
+//参数：遍历到的元素，遍历到的索引，被遍历的数组
+arr.map(function(value,index,array){
+console.log(index,value,array)
+})
+jq:
+//参数：遍历到的元素，遍历到的索引
+$.map(arr,function(value,index){
+console.log(index,value)
+//return value+index
+//组成新的数组放回，索引和值一起返回
+})
+区别：和each一样，能否遍历伪数组。jquery中
+map和each的区别，参数顺序，each默认返回对象是原数组，map默认返回对象为空数组。map静态方法可以在return中对被遍历的数组进行处理。</p> <h4 id="其他静态方法"><a href="#其他静态方法" class="header-anchor">#</a> 其他静态方法</h4> <p>去掉空格：
+var res= $.trim(str)//作用，参数，返回值
+判断window：
+$.isWindow(obj)//作用，参数，返回值(Boolean)
+判断数组：
+$.isAray(obj)//可以判断真伪数组
+判断函数：
+$.isFunction(obj)//jQuery本质是一个匿名函数，返回true
+暂停入口函数执行，等别的加载完了再执行入口函数
+$.holdReady(boolean)</p> <h2 id="属性与属性节点"><a href="#属性与属性节点" class="header-anchor">#</a> 属性与属性节点</h2> <p>属性：对象身上保存的变量
+如何操作属性：赋值和获取p.name;p[&quot;name] = &quot;zs&quot;;
+属性节点：标签当中的属性，保存在DOM元素的attribute当中
+如何操作属性节点：
+原生js：DOM元素.setAttribute(&quot;属性名称&quot;,&quot;值&quot;)，getAttribute
+区别：任何对象都有属性，只有dom对象才有属性节点</p> <h2 id="jq操作属性节点"><a href="#jq操作属性节点" class="header-anchor">#</a> jq操作属性节点</h2> <h3 id="attr获取-设置属性节点"><a href="#attr获取-设置属性节点" class="header-anchor">#</a> attr获取/设置属性节点</h3> <p>$(&quot;span&quot;).attr(&quot;class&quot;)//只会获取第一个，一个参数表示获取
+$(&quot;span&quot;).attr(&quot;class&quot;,&quot;box aaa&quot;)//所有的都设置，如果设置不存在的属性的属性节点，系统会自动新增abc，两个参数表示设置</p> <p>属性节点删除：
+$(&quot;span&quot;).removeAttr(&quot;class name&quot;)//找到的所有的都删除，多个属性节点用空格隔开</p> <h3 id="prop获取-设置属性节点"><a href="#prop获取-设置属性节点" class="header-anchor">#</a> prop获取/设置属性节点</h3> <p>$(&quot;span&quot;).prop(&quot;class&quot;)////只会获取第一个，一个参数表示获取
+$(&quot;span&quot;).prop(&quot;class&quot;,&quot;box aaa&quot;)
+$(&quot;span&quot;).removeProp(&quot;demo&quot;);</p> <p>prop和attr的区别：prop方法不仅能够操作属性, 他还能操作属性节点
+具有 true 和 false 两个属性的属性节点，如 checked, selected 或者 disabled 使用prop()，其他的使用 attr()
+console.log($(&quot;input&quot;).prop(&quot;checked&quot;)); // true / false
+console.log($(&quot;input&quot;).attr(&quot;checked&quot;)); // checked / undefined</p> <h2 id="jq操作类相关"><a href="#jq操作类相关" class="header-anchor">#</a> jq操作类相关</h2> <p>1.addClass(class|fn)
+作用: 添加一个类
+如果要添加多个, 多个类名之间用空格隔开即可
+$(&quot;div&quot;).addClass(&quot;class1 class2&quot;);</p> <p>2.removeClass([class|fn])
+作用: 删除一个类
+如果想删除多个, 多个类名之间用空格隔开即可
+$(&quot;div&quot;).removeClass(&quot;class2 class1&quot;);</p> <p>3.toggleClass(class|fn[,sw])
+作用: 切换类，相反
+有就删除, 没有就添加
+$(&quot;div&quot;).toggleClass(&quot;class2 class1&quot;);</p> <p>注意点：类名不需要加小点</p> <h2 id="jq-文本操作相关"><a href="#jq-文本操作相关" class="header-anchor">#</a> jq 文本操作相关</h2> <ol><li><p>html([val|fn])
+和原生JS中的innerHTML一模一样
+$(&quot;div&quot;).html(&quot;</p><p>我是段落<span>我是span</span></p>&quot;)
+console.log($(&quot;div&quot;).html())//不写参数就是获取<p></p></li> <li><p>text([val|fn])
+和原生JS中的innerText一模一样
+$(&quot;div&quot;).text(&quot;</p><p>我是段落<span>我是span</span></p>&quot;)
+console.log($(&quot;div&quot;).text())<p></p></li> <li><p>val([val|fn|arr])
+$(&quot;input&quot;).val(&quot;请输入内容&quot;)
+console.log($(&quot;input&quot;).val())</p></li></ol> <h2 id="css-操作相关"><a href="#css-操作相关" class="header-anchor">#</a> css 操作相关</h2> <p>1.逐个设置
+$(&quot;div&quot;).css(&quot;width&quot;, &quot;100px&quot;);
+$(&quot;div&quot;).css(&quot;height&quot;, &quot;100px&quot;);
+$(&quot;div&quot;).css(&quot;background&quot;, &quot;red&quot;);</p> <p>2.链式设置
+注意点: 链式操作如果大于3步, 建议分开
+$(&quot;div&quot;).css(&quot;width&quot;, &quot;100px&quot;).css(&quot;height&quot;, &quot;100px&quot;).css(&quot;background&quot;, &quot;blue&quot;);</p> <p>3.批量设置√
+$(&quot;div&quot;).css({
+width: &quot;100px&quot;,
+height: &quot;100px&quot;,
+background: &quot;red&quot;
+});</p> <p>4.获取CSS样式值
+console.log($(&quot;div&quot;).css(&quot;background&quot;));</p> <h2 id="尺寸和位置操作相关"><a href="#尺寸和位置操作相关" class="header-anchor">#</a> 尺寸和位置操作相关</h2> <p>width()元素宽度，有参数表示设置
+innerWidth()元素快读+内边距
+outerWidth()元素快读+内边距+边框</p> <p>offset()获取距离窗口的偏移位
+获取：console.log($(&quot;.son&quot;).offset().left)
+设置：$(&quot;.son&quot;).offset({left: 10});</p> <p>position()
+作用: 获取元素距离定位元素的偏移位
+console.log($(&quot;.son&quot;).position().left)
+注意点: position方法只能获取不能设置，可以用css</p> <p>获取滚动的偏移位
+console.log($(&quot;.scroll&quot;).scrollTop())
+设置滚动的偏移位
+$(&quot;.scroll&quot;).scrollTop(300)</p> <p>获取网页滚动的偏移位
+注意点: ie body获取，html为0，其他浏览器body为0，html获取。为了保证浏览器的兼容, 获取网页滚动的偏移位需要按照如下写法
+console.log($(&quot;body&quot;).scrollTop()+$(&quot;html&quot;).scrollTop())
+console.log($(window).scrollTop())//同上，注意没有引号，有引号为null
+设置网页滚动偏移位
+注意点: 为了保证浏览器的兼容, 设置网页滚动偏移位的时候必须按照如下写法
+$(&quot;html,body&quot;).scrollTop(300);
+$(window).scrollTop(300)</p> <h2 id="jq事件绑定"><a href="#jq事件绑定" class="header-anchor">#</a> jq事件绑定</h2> <p>第一种方式 .eventName(fn)
+$(&quot;button&quot;).click(function () {
+alert(&quot;hello lnj&quot;);
+})</p> <p>第二种方式 on(eventName,fn)
+$(&quot;button&quot;).on(&quot;click&quot;, function () {
+alert(&quot;hello click1&quot;);
+})</p> <p>注意点:事件绑定可以添加多个相同或者不同类型的事件,不会覆盖</p> <h2 id="jq事件移除"><a href="#jq事件移除" class="header-anchor">#</a> jq事件移除</h2> <p>off方法如果不传递参数, 会移除所有的事件
+$(&quot;button&quot;).off()
+off方法如果传递一个参数, 会移除所有指定类型的事件
+$(&quot;button&quot;).off(&quot;click&quot;)
+off方法如果传递两个参数, 会移除所有指定类型的指定事件
+$(&quot;button&quot;).off(&quot;click&quot;, test1)</p> <h2 id="事件冒泡和默认行为"><a href="#事件冒泡和默认行为" class="header-anchor">#</a> 事件冒泡和默认行为</h2> <p>1.什么是事件冒泡?
+子元素事件响应但是父元素事件也响应。
+2.如何阻止事件冒泡
+在子元素回调事件中return false
+或者在子元素回调参数中传event 最后来个event.stopPropagtion()
+$(&quot;.son&quot;).click(function (event) {
+alert(&quot;son&quot;);
+// return false;
+event.stopPropagation();
+});
+$(&quot;.father&quot;).click(function () {
+alert(&quot;father&quot;);
+})</p> <p>3.什么是默认行为?
+默认行为：比如a标签默认进行跳转，表单提交远程服务器
+4.如何阻止默认行为
+需要阻止的事件return false
+或者 event.preventDefault()
+$(&quot;a&quot;).click(function (event) {
+alert(&quot;弹出注册框&quot;);
+// return false;
+event.preventDefault();
+})</p> <h2 id="代码自动触发事件"><a href="#代码自动触发事件" class="header-anchor">#</a> 代码自动触发事件</h2> <p>$(&quot;.father&quot;).trigger(&quot;click&quot;)
+$(&quot;.father&quot;).triggerHandler(&quot;click&quot;)</p> <p>注意点：
+trigger: 如果利用trigger自动触发事件,会触发事件冒泡，会触发默认行为
+triggerHandler: 如果利用triggerHandler自动触发事件, 不会触发事件冒泡，不会触发默认行为</p> <p><a href="http://www.baidu.com"><span>注册</span></a></p> <p>$(&quot;span&quot;).click(function () {
+alert(&quot;a&quot;);
+});
+//参数为触发的事件名称
+// $(&quot;a&quot;).triggerHandler(&quot;click&quot;);//不跳转
+$(&quot;span&quot;).trigger(&quot;click&quot;);//不要去触发 a ，应该去触发a里面的内容，比如这里的span，直接触发a默认行为也没有。</p> <h2 id="自定义事件"><a href="#自定义事件" class="header-anchor">#</a> 自定义事件</h2> <p>什么是自定义事件？原js，jq没有的事件名称
+自定义事件的条件：
+1.事件必须是通过on绑定的
+2.事件必须通过trigger来触发
+$(&quot;.son&quot;).on(&quot;myClick&quot;, function () {
+alert(&quot;son&quot;);
+})
+$(&quot;.son&quot;).triggerHandler(&quot;myClick&quot;);
+没有on的是jquery帮你包装好的，on可以实现元素的所有方法</p> <h2 id="事件命名空间"><a href="#事件命名空间" class="header-anchor">#</a> 事件命名空间</h2> <p>解决问题：企业多人操作一个项目，可能同一个元素添加事件。代码阅读造成麻烦。
+想要事件的命名空间有效,必须满足两个条件
+1.事件是通过on来绑定的
+2.通过trigger自动触发事件</p> <div class="language- extra-class"><pre class="language-text"><code>$(&quot;.son&quot;).on(&quot;click.zs&quot;, function () {
+    alert(&quot;click1&quot;);
+});
+$(&quot;.son&quot;).on(&quot;click.ls&quot;, function () {
+    alert(&quot;click2&quot;);
+});
+// $(&quot;.son&quot;).trigger(&quot;click.zs&quot;);
+$(&quot;.son&quot;).trigger(&quot;click.ls&quot;)
+</code></pre></div><div class="language- extra-class"><pre><code>        $(&quot;.father&quot;).on(&quot;click.ls&quot;, function () {
+            alert(&quot;father click1&quot;);
+        });
+        $(&quot;.father&quot;).on(&quot;click&quot;, function () {
+            alert(&quot;father click2&quot;);
+        });
+        $(&quot;.son&quot;).on(&quot;click.ls&quot;, function () {
+            alert(&quot;son click1&quot;);
+        });
+        /*
+        利用trigger触发子元素带命名空间的事件, 那么父元素带相同命名空间的事件也会被触发. 而父元素没有命名空间的事件不会被触发(事件冒泡)
+        利用trigger触发子元素不带命名空间的事件,那么子元素所有相同类型的事件和父元素所有相同类型的事件都会被触发
+        */
+        // $(&quot;.son&quot;).trigger(&quot;click.ls&quot;);//son click1,father click1
+        $(&quot;.son&quot;).trigger(&quot;click&quot;);//son click1,father click1,father click2
+</code></pre></div><h2 id="事件委托"><a href="#事件委托" class="header-anchor">#</a> 事件委托</h2> <p>什么是事件委托?
+请别人帮忙做事情, 然后将做完的结果反馈给我们
+$(&quot;button&quot;).click(function () {
+$(&quot;ul&quot;).append(&quot;</p><li>我是新增的li</li>&quot;);
+})<p></p> <p>在jQuery中,如果通过核心函数找到的元素不止一个, 那么在添加事件的时候,jQuery会遍历所有找到的元素,给所有找到的元素添加事件
+$(&quot;ul&gt;li&quot;).click(function () {
+console.log($(this).html());
+});</p> <p>比如这里的所有的li点击后都会打印
+但是新增的li不会动态响应事件，入口函数在dom加载完后执行，新增的li没有响应，所以需要事件委托。也可以用on来注册click新事件
+//ul:被委托者 li：委托者 click：委托监听事件</p> <div class="language- extra-class"><pre><code>$(&quot;ul&quot;).delegate(&quot;li&quot;, &quot;click&quot;, function () {
+    console.log($(this).html());
+});
+$(&quot;ul&quot;).on(&quot;click&quot;,&quot;li&quot;, function () {
+    console.log($(this).html());
+});
+</code></pre></div><p>以上代码的含义, 让ul帮li监听click事件
+之所以能够监听, 是因为入口函数执行的时候ul就已经存在了, 所以能够添加事件
+之所以this是li,是因为我们点击的是li, 而li没有click事件, 所以事件冒泡传递给了ul,ul响应了事件, 既然事件是从li传递过来的,所以ul必然指定this是谁出</p> <p>事件委托优点：动态响应事件，缺点：需要父元素来监听
+所以动态监听都要用到事件委托</p> <h2 id="鼠标移入移除事件"><a href="#鼠标移入移除事件" class="header-anchor">#</a> 鼠标移入移除事件</h2> <p>mouseover/mouseout事件, 在子元素移入移出也会触发父元素的事件
+$(&quot;.father&quot;).mouseover(function () {
+console.log(&quot;father被移入了&quot;);
+});
+$(&quot;.father&quot;).mouseout(function () {
+console.log(&quot;father被移出了&quot;);
+});//从父元素移到子元素内，father被移出了，father被移入了
+mouseenter/mouseleave事件, 在子元素移入移出不会触发父元素的事件
+$(&quot;.father&quot;).mouseenter(function () {
+console.log(&quot;father被移入了&quot;);
+});
+$(&quot;.father&quot;).mouseleave(function () {
+console.log(&quot;father被移出了&quot;);
+});//从父元素移到子元素内，不会再触发父元素
+jq中hover监听移入移除事件，第一个function为移入，第二个functionWie移除，内部原理就是mouseenter/mouseleave
+$(&quot;.father&quot;).hover(function () {
+console.log(&quot;father被移入了&quot;);
+},function () {
+console.log(&quot;father被移出了&quot;);
+})</p> <h2 id="eq找出元素中指定序号元素"><a href="#eq找出元素中指定序号元素" class="header-anchor">#</a> eq找出元素中指定序号元素</h2> <p>获取序号
+$(this).index()
+找出许多元素中指定index元素(来进行操作)
+var $li = $(&quot;content&gt;li&quot;).eq(index)
+$li.siblings().removeClass(&quot;xxx&quot;)</p> <h2 id="筛选函数"><a href="#筛选函数" class="header-anchor">#</a> 筛选函数</h2> <h3 id="筛选出的非当前选择对象-来进行操作"><a href="#筛选出的非当前选择对象-来进行操作" class="header-anchor">#</a> 筛选出的非当前选择对象(来进行操作)</h3> <p>$(this).siblings()</p> <h3 id="找到指定祖先"><a href="#找到指定祖先" class="header-anchor">#</a> 找到指定祖先</h3> <p>$(this).parents(&quot;xxx&quot;)</p> <h3 id="获取指定子元素中的某些元素"><a href="#获取指定子元素中的某些元素" class="header-anchor">#</a> 获取指定子元素中的某些元素</h3> <p>children(&quot;xxx&quot;)</p> <div class="language- extra-class"><pre class="language-text"><code>let $sub = $(this).children(&quot;.sub&quot;)
+let $other = $(this).siblings().children(&quot;.sub&quot;)
+</code></pre></div><h2 id="jq动画效果"><a href="#jq动画效果" class="header-anchor">#</a> jq动画效果</h2> <h3 id="show-1000"><a href="#show-1000" class="header-anchor">#</a> show(1000)</h3> <p>show(1000,function(){})//动画执行完毕后调用
+一般对于display:none;后实现
+切换效果
+$(&quot;button&quot;).eq(2).click(function () {
+$(&quot;div&quot;).toggle(1000, function () {
+alert(&quot;切换动画执行完毕&quot;)
+})
+})</p> <h3 id="hide-1000"><a href="#hide-1000" class="header-anchor">#</a> hide(1000)</h3> <p>hide(1000,function(){
+//....
+})</p> <h3 id="纵向展开-收起-切换"><a href="#纵向展开-收起-切换" class="header-anchor">#</a> 纵向展开/收起/切换</h3> <p>展开：slideDown(1000)
+收起：slideUp(1000)
+切换：slideToggle(1000,function(){})</p> <p>菜单栏目例子:</p> <div class="language- extra-class"><pre class="language-text"><code>    $(function () {
+        $(&quot;.nav&gt;li&quot;).click(function(){
+            let $sub = $(this).children(&quot;.sub&quot;)
+            $sub.slideDown(1000)
+            let $other = $(this).siblings().children(&quot;.sub&quot;)
+            $other.slideUp(1000)
+            $(this).addClass(&quot;current&quot;)
+            $(this).siblings().removeClass(&quot;current&quot;)
+        })
+    })
+</code></pre></div><h3 id="停止当前正在运行的动画"><a href="#停止当前正在运行的动画" class="header-anchor">#</a> 停止当前正在运行的动画</h3> <p>stop();//可以保持突发情况下动画的流畅程度</p> <div class="language- extra-class"><pre class="language-text"><code>            $(&quot;.nav&gt;li&quot;).mouseenter(function () {
+                // 1.1拿到二级菜单
+                var $sub = $(this).children(&quot;.sub&quot;);
+                // 停止当前正在运行的动画：
+                $sub.stop();
+                // 1.2让二级菜单展开
+                $sub.slideDown(1000);
+            });
+            // 2.监听一级菜单的移出事件
+            $(&quot;.nav&gt;li&quot;).mouseleave(function () {
+                // 1.1拿到二级菜单
+                var $sub = $(this).children(&quot;.sub&quot;);
+                // 停止当前正在运行的动画：
+                $sub.stop();
+                // 1.2让二级菜单收起
+                $sub.slideUp(1000);
+            });
+</code></pre></div><h3 id="淡入淡出动画"><a href="#淡入淡出动画" class="header-anchor">#</a> 淡入淡出动画</h3> <p>fadeIn()
+fadeOut()
+fadeToggle()
+fadeTo(time,degree,function(){})//淡入的时间和程度</p> <h3 id="stop"><a href="#stop" class="header-anchor">#</a> stop()</h3> <p>可以传参
+立即停止当前动画, 继续执行后续的动画
+$(&quot;div&quot;).stop()
+stop(false)
+$(&quot;div&quot;).stop(false, false)</p> <p>立即停止当前和后续所有的动画
+stop(true)
+$(&quot;div&quot;).stop(true, false)</p> <p>立即完成当前的, 继续执行后续动画
+$(&quot;div&quot;).stop(false, true)</p> <p>立即完成当前的, 并且停止后续所有的
+stop(true, true)</p> <h3 id="多个动画执行队列"><a href="#多个动画执行队列" class="header-anchor">#</a> 多个动画执行队列</h3> <p>动画队列，前面的执行完后面才会执行
+$(&quot;.ad&quot;).stop().slideDown(1000).fadeOut(1000).fadeIn(1000)
+注意点：jq动画最好加个stop，动画队列，没有的话需要等到每个做完在做下一个（自嗨现象）
+上面代码等同于：</p> <p>$(&quot;.ad&quot;).slideDown(1000, function () {
+$(&quot;.ad&quot;).fadeOut(1000, function () {
+$(&quot;.ad&quot;).fadeIn(1000);
+});
+});</p> <h3 id="自定义动画"><a href="#自定义动画" class="header-anchor">#</a> 自定义动画</h3> <p>animate()
+$(&quot;.one&quot;).animate({
+marginLeft: 500
+}, 5000, function () {
+alert(&quot;自定义动画执行完毕&quot;);
+})</p> <div class="language- extra-class"><pre><code>            $(&quot;.one&quot;).animate({
+                width: &quot;+=100&quot;
+            }, 1000, function () {
+                alert(&quot;自定义动画执行完毕&quot;);
+            })
+
+            $(&quot;.one&quot;).animate({
+                // width: &quot;hide&quot;
+                width: &quot;toggle&quot;
+            }, 1000, function () {
+                alert(&quot;自定义动画执行完毕&quot;);
+            })
+</code></pre></div><p>第一个参数: 接收一个对象, 可以在对象中修改属性
+第二个参数: 指定动画时长
+第三个参数: 指定动画节奏, 默认就是swing
+第四个参数: 动画执行完毕之后的回调函数</p> <p>swing两头慢中间快 linear匀速</p> <p>注意点：在jQuery的{}中可以同时修改多个属性, 多个属性的动画也会同时执行
+$(&quot;.one&quot;).animate({
+width: 500,
+height: 500
+}, 1000);</p> <h3 id="动画延时delay"><a href="#动画延时delay" class="header-anchor">#</a> 动画延时delay()</h3> <p>$(&quot;.one&quot;).animate({
+width: 500
+// height: 500
+}, 1000).delay(2000).animate({
+height: 500
+}, 1000)</p> <h2 id="节点操作"><a href="#节点操作" class="header-anchor">#</a> 节点操作</h2> <h3 id="添加节点"><a href="#添加节点" class="header-anchor">#</a> 添加节点</h3> <p>内部插入
+append(content|fn)
+appendTo(content)
+会将元素添加到指定元素内部的最后</p> <div class="language- extra-class"><pre><code>prepend(content|fn)
+prependTo(content)
+会将元素添加到指定元素内部的最前面
+
+$(&quot;ul&quot;).append($li)
+$li.appendTo(&quot;ul&quot;)
+插入模板字符串
+</code></pre></div><p>外部插入
+after(content|fn)
+会将元素添加到指定元素外部的后面</p> <div class="language- extra-class"><pre><code>before(content|fn)
+会将元素添加到指定元素外部的前面
+
+insertAfter(content)
+insertBefore(content)
+
+$(&quot;ul&quot;).after($li)
+$li.insertAfter(&quot;ul&quot;)
+</code></pre></div><h3 id="删除节点"><a href="#删除节点" class="header-anchor">#</a> 删除节点</h3> <div class="language- extra-class"><pre><code>remove([expr])
+detach([expr])
+删除指定元素
+$(this).parents(&quot;.info&quot;).remove()
+
+empty()
+删除指定元素的内容和子元素, 指定元素自身不会被删除，清空内容
+</code></pre></div><h3 id="替换元素"><a href="#替换元素" class="header-anchor">#</a> 替换元素</h3> <p>replaceWith()
+replaceAll()
+替换所有匹配的元素为指定的元素
+1.新建一个元素
+var $h6 = $(&quot;</p><h6>我是标题6</h6>&quot;)
+2.替换元素
+$(&quot;h1&quot;).replaceWith($h6)
+$h6.replaceAll(&quot;h1&quot;)//效果一样主体不同<p></p> <h3 id="复制节点"><a href="#复制节点" class="header-anchor">#</a> 复制节点</h3> <p>clone([Even[,deepEven]])
+如果传入false就是浅复制, 如果传入true就是深复制
+浅复制只会复制元素, 不会复制元素的事件
+深复制会复制元素, 而且还会复制元素的事件</p> <p>1.浅复制一个元素
+var $li = $(&quot;li:first&quot;).clone(false)
+2.将复制的元素添加到ul中
+$(&quot;ul&quot;).append($li)</p> <p>1.深复制一个元素
+var $li = $(&quot;li:first&quot;).clone(true)
+2.将复制的元素添加到ul中
+$(&quot;ul&quot;).append($li)</p> <p>面试题：用原生js写一个深浅复制的方法</p> <h2 id="jquery原理-编写自己的jquery"><a href="#jquery原理-编写自己的jquery" class="header-anchor">#</a> jQuery原理(编写自己的jquery)</h2> <h3 id="源码"><a href="#源码" class="header-anchor">#</a> 源码</h3> <p>(function( window, undefined ) {
+...
+var jQuery = function( ) {
+return new jQuery.prototype.init( );
+}</p> <div class="language- extra-class"><pre><code>jQuery.prototype = {
+    constructor: jQuery
+}
+
+jQuery.prototype.init.prototype = jQuery.prototype; 
+//外界可以拿到内部变量
+window.jQuery = window.$ = jQuery;
+</code></pre></div><p>})( window )//传入参数</p> <p>1.jQuery的本质是一个闭包
+2.jQuery为什么要使用闭包来实现?
+为了避免多个框架变量名重复的冲突，否则先定义变量的被覆盖掉。
+3.jQuery如何让外界访问内部定义的局部变量
+包内 window.xxx = xxx;
+4.jQuery为什么要给自己传递一个window参数?
+为了方便后期压缩代码
+为了提升查找的效率,window
+5.jQuery为什么要给自己接收一个undefined参数?
+为了方便后期压缩代码，传入后期可以简写
+IE9以下的浏览器undefined可以被修改, 为了保证内部使用的undefined不被修改, 所以需要接收一个正确的undefined</p> <h3 id="jq入口函数传入参数返回"><a href="#jq入口函数传入参数返回" class="header-anchor">#</a> jq入口函数传入参数返回</h3> <p>jQ入口函数传入不同参数得到的实例</p> <div class="language- extra-class"><pre><code>1.传入 '' null undefined NaN  0  false, 返回空的jQuery对象
+2.字符串:
+    代码片段:会将创建好的DOM元素存储到jQuery对象中返回
+    选择器: 会将找到的所有元素存储到jQuery对象中返回
+3.数组:
+    会将数组中存储的元素依次存储到jQuery对象中立返回
+4.除上述类型以外的:
+    会将传入的数据存储到jQuery对象中返回
+
+字符串判断代码片段：
+str.charAt(0)==&quot;&lt;&quot; &amp;&amp; str.charAt(str.length-1)==&quot;&gt;&quot; &amp;&amp; str.length&gt;3//首尾字符串符号判断
+trim()去掉字符串首尾的空格;不支持的情况下可以用replace方法完善trim方法，可接受正则表达式
+
+
+操作：
+1、根据代码片段创建所有元素
+let temp = document.createElement(&quot;div&quot;)
+temp.innerHTML = selector //传进来的代码片段字符串,此时temp已经创建好元素
+
+2、将创建好的一级元素添加到jquery中
+temp.children拿到一组，循环遍历拿完
+for (let i =0;i&lt;temp.children.length;i++){
+    this[i] = temp.children[i]
+}
+3、给jquuery添加length属性
+this.length = temp.children.length
+4、返回加工好的jquery对象
+return this
+
+官方如果传入的代码片段前后有空格可以处理，任然可以创建元素
+</code></pre></div><h3 id="jquery中的方法实现"><a href="#jquery中的方法实现" class="header-anchor">#</a> jquery中的方法实现</h3> <p>封装方法</p></div> <footer class="page-edit" style="display:none;"><!----> <!----></footer> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-5775ee02>
+      欢迎来到Vera' Blog
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:none;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="right:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div></div></div>
+    <script src="/assets/js/app.6c062d7f.js" defer></script><script src="/assets/js/3.f66678e2.js" defer></script><script src="/assets/js/1.d4079bb7.js" defer></script><script src="/assets/js/21.1cbfbca1.js" defer></script>
+  </body>
+</html>
